@@ -12,6 +12,8 @@
 		F0A0018B204895910072AD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A00189204895910072AD88 /* Main.storyboard */; };
 		F0A0018D204895910072AD88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A0018C204895910072AD88 /* Assets.xcassets */; };
 		F0A00190204895910072AD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A0018E204895910072AD88 /* LaunchScreen.storyboard */; };
+		F0A00198204895E00072AD88 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A00197204895E00072AD88 /* CanvasView.swift */; };
+		F0A0019A204895EB0072AD88 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0A00199204895EB0072AD88 /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F0A0018C204895910072AD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0A0018F204895910072AD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0A00191204895910072AD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A00197204895E00072AD88 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		F0A00199204895EB0072AD88 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				F0A00185204895910072AD88 /* AppDelegate.swift */,
 				F0A00187204895910072AD88 /* ViewController.swift */,
 				F0A00189204895910072AD88 /* Main.storyboard */,
+				F0A00197204895E00072AD88 /* CanvasView.swift */,
+				F0A00199204895EB0072AD88 /* MNIST.mlmodel */,
 				F0A0018C204895910072AD88 /* Assets.xcassets */,
 				F0A0018E204895910072AD88 /* LaunchScreen.storyboard */,
 				F0A00191204895910072AD88 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A0019A204895EB0072AD88 /* MNIST.mlmodel in Sources */,
 				F0A00188204895910072AD88 /* ViewController.swift in Sources */,
 				F0A00186204895910072AD88 /* AppDelegate.swift in Sources */,
+				F0A00198204895E00072AD88 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
