@@ -1,8 +1,8 @@
 # HandwritingRecognition
 A bit of fun with IOS and Machine Learning
 
-This IOS App is based on a youtube video explaining all the details.
-I have added some changes to experiment a bit.
+This IOS App is based on a [youtube video](https://www.youtube.com/watch?v=bOg8AZSFvOc) explaining all the details.
+I have added later some changes to experiment a bit.
 
 Basically, the user draws a number on the drawing area, and this number will be recognized.
 The picture is reduced to a 28x28 pixel picture.
